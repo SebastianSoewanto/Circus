@@ -88,6 +88,7 @@ public class Circus {
         Cage<Duck> duckCage = new Cage<>();
         Duck duck = new Duck("Akshay");
         duckCage.lockUp(duck);
+        //duckCage.lockUp(new Parrot("Dolly"));
         Parrot parrot = new Parrot("Akshay too");
         Cage<Parrot> parrotCage = new Cage<>();
         parrotCage.lockUp(parrot);
